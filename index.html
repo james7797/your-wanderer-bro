@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wander Vibes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 60px;
+      margin: 0;
+      color: #FFD700;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.8);
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    section h2 {
+      font-family: 'Pacifico', cursive;
+      color: #FFA07A;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.9);
+      color: #ccc;
+    }
+
+    .social-icons a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 24px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #FFA07A;
+    }
+
+    @media (max-width: 600px) {
+      .gallery img {
+        width: 90%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wander Vibes</h1>
+  </header>
+
+  <div class="gallery">
+    <img src="bali.jpg" alt="Bali">
+    <img src="iceland.jpg" alt="Iceland">
+    <img src="italy.jpg" alt="Italy">
+    <img src="paris.jpg" alt="Paris">
+    <img src="japan.jpg" alt="Japan">
+    <img src="spain.jpeg" alt="Spain">
+  </div>
+
+  <section>
+    <h2>About Me</h2>
+    <p>My name is James, your Wanderer Bro. For me, travel is the cheapest yet most beautiful therapy. Join me on this journey as I explore the hidden gems of the world!</p>
+  </section>
+
+  <section>
+    <h2>My Blogs</h2>
+    <p>Explore my latest travel experiences, tips, and stories from across the globe. Stay tuned for breathtaking tales from beautiful destinations.</p>
+  </section>
+
+  <footer>
+    <p>Contact: 9791351124</p>
+    <div class="social-icons">
+      <a href="https://instagram.com/wanderer.bro" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/wanderer.bro" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://youtube.com/@WandererBro" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>&copy; 2025 Wander Vibes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
